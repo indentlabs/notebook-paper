@@ -11,3 +11,26 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+if (!window.Notebook) { window.Notebook = {}; }
+Notebook.init = function() {
+  M.AutoInit();
+  $('.sidenav').sidenav();
+  $('.quick-reference-sidenav').sidenav({
+    closeOnClick: true,
+    edge:         'right',
+    draggable:    false
+  });
+  $('#recent-edits-sidenav').sidenav({
+    closeOnClick: true,
+    edge:         'right',
+    draggable:    false
+  });
+  $('.slider').slider({ height: 200, indicators: false });
+  $('.dropdown-trigger').dropdown({ coverTrigger: false });
+  $('.tooltipped').tooltip({ enterDelay: 50 });
+  $('.with-character-counter').characterCounter();
+  $('.materialboxed').materialbox();
+};
+
+$(() => Notebook.init());

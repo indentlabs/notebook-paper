@@ -1,0 +1,49 @@
+<div class="navbar-fixed no-print">
+  <nav class="navbar nav-extended" style="background-color: #2196F3">
+    <div class="nav-wrapper">
+      <ul class="left">
+        <li>
+          <%= link_to 'Notebook Paper', main_app.root_path, class: 'orange-text text-lighten-2 brand-logo', style: 'margin-left: 0.6em' %>
+        </li>
+      </ul>
+      <ul class="right">
+        <li>
+          <%= link_to 'by Notebook.ai', 'https://www.notebook.ai' %>
+        </li>
+        <li>
+          <a class="dropdown-trigger" href="#!" data-target="worldbuilding-dropdown">About<i class="material-icons right">arrow_drop_down</i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <ul id="worldbuilding-dropdown" class="dropdown-content">
+    <li>
+      <%= link_to "https://www.notebook.ai/for/writers", class: 'blue-text' do %>
+        <i class="material-icons left">book</i>
+        Notebook.ai for writers
+      <% end %>
+    </li>
+    <li>
+      <%= link_to "https://www.notebook.ai/for/roleplayers", class: 'blue-text' do %>
+        <i class="material-icons left">book</i>
+        Notebook.ai for roleplayers
+      <% end %>
+    </li>
+    <li>
+      <%= link_to "https://www.notebook.ai/for/designers", class: 'blue-text' do %>
+        <i class="material-icons left">book</i>
+        Notebook.ai for designers
+      <% end %>
+    </li>
+    <li class="divider"></li>
+
+    <% Rails.application.config.content_types[:all].each do |content_type| %>
+      <li>
+        <%= link_to "https://www.notebook.ai/worldbuilding/#{content_type.downcase.pluralize}", class: "#{color_for(content_type)}-text" do %>
+          <i class="material-icons left"><%= icon_for(content_type) %></i>
+          <%= content_type.pluralize %>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+</div>
