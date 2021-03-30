@@ -1,0 +1,63 @@
+:overview:
+  :label: Overview
+  :icon: info
+  :attributes:
+    - :name: name
+      :label: Name
+      :field_type: name
+    - :name: item_type
+      :label: Item Type
+    - :name: description
+      :label: Description
+    - :name: universe_id
+      :label: Universe
+      :field_type: universe
+    - :name:
+      :label: Tags
+      :field_type: tags
+:looks:
+  :label: Looks
+  :icon: redeem
+  :attributes:
+    - :name: materials
+      :label: Materials
+    - :name: weight
+      :label: Weight
+:history:
+  :label: History
+  :icon: date_range
+  :attributes:
+    - :name: original_owners
+      :label: Original Owners
+      :field_type: link
+    - :name: past_owners
+      :label: Past Owners
+      :field_type: link
+    - :name: current_owners
+      :label: Current Owners
+      :field_type: link
+    - :name: makers
+      :label: Makers
+      :field_type: link
+    - :name: year_made
+      :label: Year it was made
+:abilities:
+  :label: Abilities
+  :icon: flash_on
+  :attributes:
+    - :name: magic
+      :label: Magical effects
+    - :name: magics
+      :label: Magic
+      :field_type: link
+:gallery:
+  :label: Gallery
+  :icon: photo_library
+:notes:
+  :label: Notes
+  :icon: edit
+  :attributes:
+    - :name: notes
+      :label: Notes
+    - :name: private_notes
+      :label: Private Notes

@@ -1,0 +1,50 @@
+:overview:
+  :label: Overview
+  :icon: info
+  :attributes:
+    - :name: name
+      :label: Name
+      :field_type: name
+    - :name: summary
+      :label: Summary
+    - :name: universe_id
+      :label: Universe
+      :field_type: universe
+    - :name:
+      :label: Tags
+      :field_type: tags
+:looks:
+  :label: Members
+  :icon: face
+  :attributes:
+    - :name: scene_characters
+      :label: Characters in scene
+      :field_type: link
+    - :name: scene_locations
+      :label: Locations in scene
+      :field_type: link
+    - :name: scene_items
+      :label: Items in scene
+      :field_type: link
+:action:
+  :label: Action
+  :icon: gesture
+  :attributes:
+    - :name: cause
+      :label: What caused this?
+    - :name: description
+      :label: Description
+    - :name: results
+      :label: Results
+:gallery:
+  :label: Gallery
+  :icon: photo_library
+:notes:
+  :label: Notes
+  :icon: edit
+  :attributes:
+    - :name: notes
+      :label: Notes
+    - :name: private_notes
+      :label: Private notes
+      :description: Private notes are <em>always</em> visible to only you, even if content is made public and shared.

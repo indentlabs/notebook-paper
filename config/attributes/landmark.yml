@@ -1,0 +1,77 @@
+:overview:
+  :label: Overview
+  :icon: info
+  :attributes:
+    - :name: name
+      :label: Name
+      :field_type: name
+    - :name: description
+      :label: Description
+    - :name: other_names
+      :label: Other names
+    - :name: type_of_landmark
+      :label: Type of landmark
+    - :name: universe_id
+      :label: Universe
+      :field_type: universe
+    - :name:
+      :label: Tags
+      :field_type: tags
+:location:
+  :label: Whereabouts
+  :icon: location_on
+  :attributes:
+    - :name: countries
+      :label: Country
+      :field_type: link
+    - :name: nearby_towns
+      :label: Nearby towns
+      :field_type: link
+:appearance:
+  :label: Appearance
+  :icon: face
+  :attributes:
+    - :name: shape
+      :label: Shape
+    - :name: size
+      :label: Size
+    - :name: materials
+      :label: Materials
+    - :name: colors
+      :label: Colors
+    - :name: symbolism
+      :label: Symbolism
+:ecosystem:
+  :label: Ecosystem
+  :icon: local_florist
+  :attributes:
+    - :name: floras
+      :label: Flora
+      :field_type: link
+    - :name: creatures
+      :label: Creatures
+      :field_type: link
+    - :name: weather
+      :label: Weather
+:history:
+  :label: History
+  :icon: date_range
+  :attributes:
+    - :name: creation_story
+      :label: Creation story
+    - :name: established_year
+      :label: Established year
+    - :name: creation_time
+      :label: Creation time
+:gallery:
+  :label: Gallery
+  :icon: photo_library
+:notes:
+  :label: Notes
+  :icon: edit
+  :attributes:
+    - :name: notes
+      :label: Notes
+    - :name: private_notes
+      :label: Private Notes
+      :description: Private notes are <em>always</em> visible to only you, even if content is made public and shared.

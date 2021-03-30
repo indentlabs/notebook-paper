@@ -1,0 +1,95 @@
+:overview:
+  :label: Overview
+  :icon: info
+  :attributes:
+    - :name: name
+      :label: Name
+      :field_type: name
+    - :name: other_names
+      :label: Other names
+    - :name: universe_id
+      :label: Universe
+      :field_type: universe
+    - :name:
+      :label: Tags
+      :field_type: tags
+:info:
+  :label: Info
+  :icon: forum
+  :attributes:
+    - :name: history
+      :label: History
+    - :name: typology
+      :label: Typology
+    - :name: dialectical_information
+      :label: Dialectical information
+    - :name: register
+      :label: Register
+    - :name: gestures
+      :label: Gestures
+    - :name: evolution
+      :label: Evolution
+:phonology:
+  :label: Phonology
+  :icon: speaker_notes
+  :attributes:
+    - :name: phonology
+      :label: Phonology
+:grammar:
+  :label: Grammar
+  :icon: list
+  :attributes:
+    - :name: grammar
+      :label: Grammar
+:vocabulary:
+  :label: Vocabulary
+  :icon: book
+  :attributes:
+    - :name: greetings
+      :label: Greetings
+    - :name: goodbyes
+      :label: Goodbyes
+    - :name: please
+      :label: Please
+    - :name: thanks
+      :label: Thank you
+    - :name: you_are_welcome
+      :label: You are welcome
+    - :name: sorry
+      :label: Sorry
+    - :name: excuse_me
+      :label: Excuse me
+    - :name: yes_words
+      :label: Yes words
+    - :name: no_words
+      :label: No words
+    - :name: body_parts
+      :label: Body parts
+    - :name: family
+      :label: Family
+    - :name: trade
+      :label: Trade
+:entities:
+  :label: Entities
+  :icon: settings_input_component
+  :attributes:
+    - :name: numbers
+      :label: Numbers
+    - :name: quantifiers
+      :label: Quantifiers
+    - :name: pronouns
+      :label: Pronouns
+    - :name: determiners
+      :label: Determiners
+:gallery:
+  :label: Gallery
+  :icon: photo_library
+:notes:
+  :label: Notes
+  :icon: edit
+  :attributes:
+    - :name: notes
+      :label: Notes
+    - :name: private_notes
+      :label: Private notes
+      :description: Private notes are <em>always</em> visible to only you, even if content is made public and shared.
