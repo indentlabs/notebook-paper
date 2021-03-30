@@ -1,3 +1,40 @@
-// Place all the styles related to the Paper controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+.uppercase {
+  text-transform: uppercase;
+}
+
+h1.card-title,
+h2.card-title,
+h3.card-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h1-size {
+  font-size: 4.2rem;
+  line-height: 110%;
+  font-weight: 400;
+}
+.h2-size {
+  font-size: 3.56rem;
+  line-height: 110%;
+  font-weight: 400;
+  margin: 2rem 0 1rem 0;
+}
+.h3-size {
+  font-size: 2.92rem;
+  line-height: 110%;
+  font-weight: 400;
+  margin: 2rem 0 1rem 0;
+}
+
+.h5-size {
+  font-size: 1.64rem;
+  line-height: 110%;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.h6-size {
+  font-size: 1.3rem;
+  line-height: 110%;
+  margin: 1rem 0 0.5rem 0;
+}
