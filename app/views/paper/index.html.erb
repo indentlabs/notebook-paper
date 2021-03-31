@@ -7,41 +7,40 @@
   <div style="font-size: 1.3rem; text-align: justify" class="col s12 m10 offset-m1">
     <h3 style="font-size: 1.3em">Create rich worlds &mdash; and everything within them!</h3>
     <p>
-      You know that <%= link_to 'smart worldbuilding notebook', 'https://www.notebook.ai' %> you've been building fictional universes
-      in for
+      You know that <%= link_to 'smart worldbuilding notebook', 'https://www.notebook.ai' %> that's helped you create rich, fictional universes
       <%= link_to 'over four years', 'https://medium.com/indent-labs/happy-4th-birthday-to-notebook-ai-e6f69f06d169' %>
-      now? Well, Notebook Paper is kind of like that, except <em>real paper</em>. You can feel it, touch it &mdash; even smell it!
-      And best of all, it comes with all the benefits inherent to a more physical form:
+      now? Well, Notebook Paper is kind of like that, except on <em>real paper</em>. You can feel it, touch it &mdash; even 
+      smell<sup class="tooltipped orange-text" data-tooltip="You can smell the paper. You probably can't smell your fictional world.">[1]</sup>
+      it!
+    </p>
+    <p>
+      Unlike a silly website that's available on every device, your printed Notebook Paper <em>is</em> your device!
+      There are plenty of other benefits inherent to a physical form, too:
     </p>
 
     <ul class="browser-default">
-      <li><strong>Your universes are always available</strong> &mdash; any time you have your notebook with you.</li>
-      <li><strong>Your ideas are secure and private</strong> &mdash; just keep your notebook secure and private.</li>
-      <li><strong>You own 100% of your content</strong> &mdash; just like on Notebook.ai!</li>
+      <li style="margin-bottom: 0.6em"><strong>Your universes are always available</strong> &mdash; any time you have your notebook with you.</li>
+      <li style="margin-bottom: 0.6em"><strong>Your ideas are secure and private</strong> &mdash; just keep your notebook secure and private.</li>
+      <li style="margin-bottom: 0.6em"><strong>You own 100% of your content</strong> &mdash; just like on Notebook.ai!</li>
     </ul>
 
     <p>
-      Rather than loading up Notebook.ai the next time you get an idea for a character, consider giving Notebook Paper a shot. 
-      It's easy to get started: just print out your notebook pages and you're good to go! You can jot down freeform notes or
-      outline structured details about your idea. You can even doodle and write notes in the margins!
-    </p>
-
-    <p>
       If you don't have an idea in mind already, you can use Notebook Paper anyway. Every page comes with a set of questions tailored to ask about the world you're
-      creating and make worldbuilding fun and easy.
-    </p>
-    <p>
-      For example, character pages ask for a name &mdash; of course &mdash; but also how they look, what they believe
-      in, what motivates them, where they came from, and a myriad of other easily-answered questions that are fun to answer and develop your characters little by 
-      little. And there are different questions for coming up with locations, items, creatures, and so on.
-    </p>
-    
-    <p>
-      Notebook Paper makes worldbuilding fun and easy &mdash; like Notebook.ai, but physical!
+      creating to make worldbuilding fun and easy.
     </p>
 
+    <p>
+      Rather than loading up Notebook.ai the next time you get an idea for a character, consider giving Notebook Paper a shot. 
+      It's easy to get started: just print out your notebook pages and you're good to go!
+    </p>
+    <p>
+      You can even
+      doodle<sup class="tooltipped orange-text" data-tooltip="Unsurprisingly, doodling on your screen is actually not recommended on Notebook.ai. Take that, computers!">[2]</sup>
+      and write notes in the margins!
+    </p>
     <br /><br />
-
+  </div>
+  <div class="col s12">
     <div class="row">
       <div class="col s12 m4">
         <div class="icon-block center">
@@ -73,7 +72,8 @@
         </div>
       </div>
     </div>
-
+  </div>
+  <div class="col s12 m10 offset-m1" style="font-size: 1.3rem; text-align: justify">
     <h3 style="font-size: 1.3em">Fill your world with all kinds of specialized pages</h3>
     <p>
       Notebook Paper includes all of Notebook.ai's free and Premium pages &mdash; for free!
@@ -93,39 +93,40 @@
     <p>
       Just select which ones you want, print out your personalized PDF, and you're ready to get started!
     </p>
+    <br /><br />
   </div>
 
-  <div class="col s12">
+  <div class="col s12" style="font-size: 1.3rem;">
     <div class="card">
       <div class="card-content">
         <div class="card-title">Start with a customized Notebook Paper download</div>
+        <p style="text-align: justify">
+          Your generated notebook will include a cover page, a contact page, an informational page, and any of the 
+          content pages you select from below. You can always add more content pages from the links further down
+          on this page!
+        </p>
+        <br />
         <%= form_for :paper, url: generate_paper_path do |f| %>
           <div class="row">
             <% Rails.application.config.content_types[:all_non_universe].each do |content_type| %>
-              <div class="col s12 l4">
-                <div class="field" style="margin-bottom: 0.3em">
+              <div class="col s12 m6 l4">
                   <%= f.label content_type do %>
-                    <%= f.check_box content_type %>
-                    <span class="black-text">
-                      <i class="material-icons left <%= color_for(content_type) %>-text"><%= icon_for(content_type) %></i>
-                      Include 2 <%= content_type %> pages
-                    </span>
+                    <div class="field hoverable card-panel" style="margin-bottom: 0.25em; padding: 1.25em">
+                      <%= f.check_box content_type %>
+                      <span class="black-text">
+                        <i class="material-icons left <%= color_for(content_type) %>-text"><%= icon_for(content_type) %></i>
+                        Include 2 <%= content_type %> pages
+                      </span>
+                    </div>
                   <% end %>
-                </div>
               </div>
             <% end %>
           </div>
 
           <div class="center">
-            <%= f.submit 'Generate Notebook Paper', class: 'btn btn-large blue white-text hoverable'%>
+            <%= f.submit 'Generate My Notebook Paper', class: 'btn btn-large blue white-text hoverable'%>
           </div>
-
           <br />
-          <p class="grey-text center">
-            Please note that while you <em>can</em> select every page, the resulting generated document will
-            be extremely large (over 300 pages) and up to 1MB in size. It's recommended to choose only the
-            pages you plan to start with, then download more pages as needed from below.
-          </p>
         <% end %>
       </div>
     </div>

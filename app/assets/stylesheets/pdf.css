@@ -21,7 +21,7 @@ div.nobreak { page-break-inside: avoid; }
 .skip-half-page    { padding-top: 470px; }
 
 /* Inputs */
-.underlined { border-bottom: 1px solid black; min-width: 100px; min-height: 2.5em; }
+.underlined { border-bottom: 1px solid black; min-width: 100px; min-height: 24px; }
 .quarter-page-width    { width: 225px; }
 .third-page-width      { width: 300px; }
 .half-page-width       { width: 450px; }
