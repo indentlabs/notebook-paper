@@ -16,18 +16,850 @@
 #
 # This would use the information in config/locales/es.yml.
 #
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
 # To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
+# available at http://guides.rubyonrails.org/i18n.html.
+
+# UTF-8
 
 en:
-  hello: "Hello world"
+  serendipitous_questions:
+    attributes:
+      universe:
+        name: What is %{name}'s name?
+        genre: What genre best describes %{name}?
+        history: What is %{name}’s history?
+        origin: How did %{name} originate?
+        description: How would you describe %{name}?
+        laws_of_physics: What are the laws of physics like in %{name}?
+        magic_system: What is the magic system like in %{name}?
+        technology: What is the level of technology like in %{name}?
+        inspiration: What were your major sources of inspiration for %{name}?
+
+      character:
+        age: How old is %{name}?
+        other_names: What other aliases does %{name} go by?
+        background: What is %{name}’s background?
+        birthday: When is %{name}’s birthday?
+        #birthplace: Where was %{name} born?
+        bodytype: What is %{name}’s body type?
+        description: Describe %{name}.
+        education: What is %{name}’s level of education?
+        eye_color: What is %{name}’s eye color?
+        facial_hair: What facial hair does %{name} have?
+        favorite_animal: What is %{name}’s favorite animal?
+        favorite_color: What is %{name}’s favorite color?
+        favorite_food: What is %{name}’s favorite food?
+        favorite_possession: What is %{name}’s favorite possession?
+        favorite_weapon: What is %{name}’s favorite weapon?
+        flaws: What flaws does %{name} have?
+        gender: What is %{name}’s gender?
+        hair_color: What color is %{name}’s hair?
+        hair_style: How does %{name} style their hair?
+        height: How tall is %{name}?
+        hobbies: What hobbies does %{name} have?
+        identifying_marks: What identifying marks does %{name} have?
+        job: What job does %{name} have?
+        mannerisms: What mannerisms does %{name} have?
+        motivations: What motivates %{name} most?
+        name: What is %{name}’s full name?
+        occupation: What is %{name}’s occupation?
+        pets: What pets does %{name} have?
+        politics: What politics does %{name} have?
+        prejudices: What prejudices does %{name} have?
+        race: What is %{name}’s race?
+        religion: What religion does %{name} practice?
+        role: What is %{name}’s role in your story?
+        skintone: What skin tone does %{name} have?
+        talents: What talents does %{name} have?
+        weight: How much does %{name} weigh?
+        personality_type: What personality type is %{name}?
+        conditions: What physical, mental, or other conditions does %{name} have?
+
+      item:
+        #current_owner: Who currently owns %{name}?
+        description: Describe %{name}.
+        item_type: What type of item is %{name}?
+        #made_by: Who made %{name}?
+        magical_effects: What kind of magic does %{name} possess?
+        materials: What is %{name} made out of?
+        name: What is %{name}’s full name?
+        #original_owner: Who originally owned %{name}?
+        #past_owners
+        weight: How much does %{name} weigh?
+        year_it_was_made: When was %{name} made?
+
+      location:
+        area: What kind of area is %{name} in?
+        #capital: What is %{name}’s capital?
+        climate: What is the climate like in %{name}?
+        crops: What crops does %{name} produce?
+        currency: What currencies are used in %{name}?
+        established_year: When was %{name} established?
+        founding_story: How was %{name} founded?
+        language: What languages are spoken in %{name}?
+        #largest_city: What is %{name}’s largest city?
+        laws: What are the laws in %{name}?
+        located_at: Where is %{name} located?
+        motto: What is %{name}’s motto?
+        #notable_cities: What notable cities are located in %{name}?
+        notable_wars: What notable wars has %{name} been involved in?
+        population: What is %{name}’s population?
+        sports: What sports are played in %{name}?
+        type: What type of location is %{name}?
+
+        description: Describe %{name}.
+        name: What is %{name}’s full name?
+
+      creature:
+        description: How would you describe a %{name}?
+        type_of_creature: What type of animal is %{name}?
+        other_names: What other names is a %{name} sometimes called?
+
+        color: What colors does a %{name} come in?
+        shape: How would you describe the shape of a %{name}?
+        size: How big (or small) is the usual %{name}?
+        height: How tall is the usual %{name}?
+        weight: How much does the usual %{name} weigh?
+        vestigial_features: What vestigial features does %{name} have?
+        notable_features: What physical features are most notable for %{name}?
+        materials: What materials (feathers, scales, etc) is %{name} made of?
+
+        aggressiveness: How aggressive is the average %{name}?
+        method_of_attack: What methods does a %{name} use to attack?
+        methods_of_defense: How does a %{name} defend itself from attackers?
+        maximum_speed: How fast can a %{name} move?
+        strengths: What are the notable strengths of %{name}?
+        weaknesses: What are the notable weaknesses of %{name}?
+        sounds: What sounds does %{name} make?
+        spoils: When hunted, what spoils does a %{name} leave behind?
+        conditions: What conditions does %{name} have or often have?
+        strongest_sense: What is %{name}'s strongest sense?
+        weakest_sense: What is %{name}'s weakest sense?
+
+        preferred_habitat: What kind of habitat is best for %{name}?
+        food_sources: Where does %{name} find its food?
+        migratory_patterns: Does %{name} have any migratory patterns?
+        reproductive_patterns: How does %{name} reproduce?
+        herding_patterns: What herd patterns does %{name} have?
+        competitors: What does %{name} compete with for food or other resources in its habitat?
+        predators: What are the major predators of %{name}?
+        prey: What does %{name} prey on in its habitat?
+
+        similar_creatures: What other creatures is %{name} most like?
+        symbolisms: What symbolisms does %{name} hold in your world?
+
+        reproduction_age: At what age can %{name} start to reproduce?
+        requirements: Besides age, what other requirements are necessary before %{name} can reproduce?
+        mating_ritual: What is %{name}'s mating ritual?
+        reproduction: How does %{name} reproduce?
+        reproduction_frequency: How frequently does %{name} reproduce?
+        parental_instincts: What parental instincts does %{name} have?
+        offspring_care: How does %{name} take care of its offspring?
+        mortality_rate: What percent of %{name} offspring make it to adulthood?
+
+        variations: What variations of %{name} are there across the world?
+
+        ancestors: What preceded %{name}? How has %{name} evolved over time?
+        evolutionary_drive: What drove %{name} to evolve over time?
+        tradeoffs: What evolutionary tradeoffs has %{name} made throughout history?
+        predictions: How might %{name} further evolve in the future?
+
+      race:
+        name: What is %{name} named?
+        description: How would you describe %{name}'s people?
+        other_names: What other names do %{name} have?
+
+        body_shape: What does the average %{name} body shape look like?
+        skin_colors: What skin color(s) are common on the %{name} race?
+        general_height: How tall is the average %{name}?
+        general_weight: How heavy is the average %{name}?
+        notable_features: What physical features on a %{name} are most noticeable?
+        physical_variance: How much variance is there between individuals of the %{name} race?
+        typical_clothing: What kind of clothing is common with %{name} individuals?
+
+        strengths: What are the strengths of %{name}?
+        weaknesses: What are the weaknesses of %{name}?
+        conditions: What conditions are common with %{name}?
+
+        traditions: What traditions are common with %{name}'s individuals?
+        beliefs: What beliefs are commonly held by the %{name}?
+        governments: What governments are common with the %{name}?
+        technologies: What kinds of technologies do the %{name} societies take advantage of?
+        occupations: What occupations are common with %{name} individuals?
+        economics: What does the economic situation look like for the %{name}?
+        favorite_foods: What are the most common favorite foods of the %{name}?
+
+        notable_events: What events are most important to the history of %{name}?
+
+      religion:
+        name: What is %{name}'s name?
+        description: How is %{name} usually described?
+        other_names: What other names is %{name} known by?
+
+        origin_story: How did %{name} first come into existence?
+        teachings: What values does %{name} teach?
+        prophecies: What prophecies does %{name} teach?
+        places_of_worship: Where does %{name} worship happen?
+        worship_services: What kind of worship services are common with %{name}?
+        obligations: What kinds of obligations are required of those who practice %{name}?
+        vision_of_paradise: What does the %{name} vision of paradise look like?
+
+        initiation_process: What does the %{name} initiation process entail?
+        rituals: What rituals are common with %{name}?
+        holidays: What are the %{name} holidays?
+        traditions: What traditions are common with %{name}?
+
+      group:
+        name: What is the name of %{name}?
+        description: How would you describe the %{name} group?
+        other_names: What other names is %{name} known by?
+
+        organizational_structure: How is %{name} structured?
+
+        motivations: What motivates %{name}?
+        goals: What is the primary goal of %{name}?
+        obstacles: What obstacles stand in the way of %{name}?
+        risks: What risks are on the line for %{name}?
+        traditions: What traditions does %{name} partake in?
+
+        inventory: What kinds of items does %{name} keep in inventory?
+
+      magic:
+        name: What is the name of %{name}?
+        description: How would you describe %{name}?
+        type_of_magic: What type of magic is %{name}?
+
+        visuals: What do the visual effects of %{name} look like?
+        effects: What effects does %{name} have?
+        aftereffects: What visual effects persist after %{name}?
+
+        positive_effects: What positive effects does %{name} have?
+        negative_effects: What negative effects does %{name} have?
+        neutral_effects: What neutral effects does %{name} have?
+        conditions: What conditions can %{name} afflict?
+        scale: How does the power level of %{name} scale?
+
+        element: What element is %{name} most closely aligned to?
+        respectability: How respected are users of %{name}?
+        morality: How good or bad is %{name}?
+
+        resource_costs: What resource costs are required to use %{name}?
+        materials_required: What materials are required to use %{name}?
+        skills_required: What skills are required to use %{name}?
+        limitations: What limitations does %{name} have? What can't it do?
+        education: What needs to be learned before %{name} can be used?
+
+      language:
+        name: What is %{name} named?
+        other_names: What other names is %{name} known by?
+
+        history: What is the history of %{name}?
+        #typology:
+        #dialetical_information:
+        #register:
+        gestures: What gestures are common for speakers of %{name}?
+        evolution: How has %{name} evolved over time?
+
+        #phonology:
+
+        #grammar:
+
+        greetings: How do people speaking %{name} greet each other?
+        goodbyes: How do people speaking %{name} say "goodbye" to each other?
+        sorry: How do people speaking %{name} say "I'm sorry"?
+        excuse_me: How do people speaking %{name} say "Excuse me"?
+        please: How do people speaking %{name} say "please"?
+        thank_you: How do people speaking %{name} say "thank you"?
+        you_are_welcome: How do people speaking %{name} say "you are welcome"?
+        yes_words: How do people speaking %{name} say yes?
+        no_words: How do people speaking %{name} say no?
+        body_parts: What are the words for each body part in %{name}?
+        family: What are the words for each family member in %{name}?
+        trade: What words or phrases are commonly used in when purchasing/selling goods using %{name}?
+
+        numbers: What are the words for each number in %{name}?
+        quantifiers: What words are there for quantifiers (a few, many, some, etc) in %{name}?
+        pronouns: What pronouns are there in %{name}?
+        determiners: What words are there for determiners (the, my, this, etc) in %{name}?
+
+      scene:
+        name: What is the name of %{name}?
+        summary: In short, what happens in %{name}?
+
+        what_caused_this?: What previous events led to %{name}?
+        description: What happens in %{name}?
+        results: At the end of %{name}, what has changed?
+
+      flora:
+        name: What's the name of this flora?
+        description: How would you describe %{name}?
+        other_names: What other names is %{name} known by?
+
+        colorings: What kinds of colorings are found on each part of %{name}?
+        size: How big does %{name} grow?
+        height: How high does %{name} grow?
+        smell: What does %{name} smell like?
+        taste: What does %{name} taste like?
+
+        fruits: What fruits does %{name} produce?
+        seeds: What kinds of seeds does %{name} produce?
+        nuts: What kinds of nuts does %{name} produce?
+        berries: What kinds of berries does %{name} produce?
+        medicinal_purposes: Does %{name} have any medicinal use?
+        leaves: What can the leaves of %{name} be used for?
+        material_uses: How is %{name} used in producing other materials?
+
+        reproduction: How does %{name} reproduce and spread?
+        seasonality: What seasons or climates is %{name} most often found in?
+        pests: What pests are common on or around %{name}?
+        diseases: What diseases are commonly spread to or from %{name}?
+
+      food:
+        name: What is the name of %{name}?
+        description: How would you describe %{name}?
+        type_of_food: What kind of food is %{name}?
+        other_names: What other names is %{name} also known by?
+
+        cost: How much does %{name} cost?
+        sold_by: Who sells %{name}?
+        rarity: How rare is it to see %{name}?
+        shelf_life: How long does it take for %{name} to go bad?
+
+        ingredients: What ingredients are in %{name}?
+        preparation: How do you prepare %{name}?
+        cooking_method: How do you cook %{name}?
+        spices: What spices are common in %{name}?
+        yield: How much %{name} is usually made at a time?
+        color: What colors does %{name} come in?
+        size: How big is %{name}?
+        smell: What does %{name} smell like when cooking?
+        variations: What are the most common variants of %{name}?
+
+        meal: Which meal of the day is %{name} usually served at?
+        serving: How is %{name} served?
+        utensils_needed: What utensils are needed to eat %{name}?
+        texture: What is the texture of %{name}?
+        scent: What does %{name} smell like when served?
+        flavor: What are %{name}'s flavors?
+
+        nutrition: How nutritious is %{name}? What nutrients does it have?
+        conditions: What conditons can %{name} cause?
+        side_effects: What are the common side effects of eating %{name}?
+
+        place_of_origin: Where did %{name} originate?
+        origin_story: What is the origin story of %{name}?
+        traditions: What traditions is %{name} commonly associated with or eaten during?
+        symbolisms: What does %{name} symbolize in your world?
+        related_foods: What other foods are related to %{name}?
+        reputation: What reputation does %{name} have?
+
+      town:
+        name: What's the name of this town?
+        description: How would you describe %{name}?
+        other_names: What other names is %{name} known by?
+
+        buildings: What buildings are in %{name}?
+        landmarks: What landmarks are in %{name}?
+        main_roads: What main roads are there in %{name}?
+        busy_areas: What are the busiest areas of %{name}?
+        neighborhoods: What are the neighborhoods in %{name}, and how do they differ?
+
+        laws: What are the major laws in %{name}?
+        sports: What sports are popular in %{name}?
+        politics: What are the politics like in %{name}?
+
+        founding_story: How was %{name} founded?
+        established_year: When was %{name} founded?
+
+        food_sources: Where does %{name} get their food from?
+        energy_sources: Where does %{name} get their energy from?
+        recycling: How are objects reused or recycled in %{name}?
+        waste: How much waste is produced in %{name}?
+
+      landmark:
+        name: What's the name of this landmark?
+        description: How would you describe %{name}?
+        other_names: What other names is %{name} known by?
+
+        shape: What shape is %{name}?
+        size: How big is %{name}?
+        materials: What materials was %{name} constructed from?
+        colors: What color(s) is %{name}?
+        symbolism: What could %{name} potentially be a symbol for?
+
+        weather: What kind of weather does %{name} typically get each year?
+
+        creation_story: How did %{name} originally form?
+        established_year: When did %{name} originate?
+        creation_time: How long did it take for %{name} to form?
+
+      country:
+        name: What's the name of this country?
+        description: How would you describe %{name}?
+        other_names: What other names is %{name} known by?
+
+        population: What is the population of %{name}?
+        social_hierarchy: How is the population separated into hierarchical classes?
+        currency: What currency is used in %{name}?
+        education: How important is education in %{name}?
+        laws: What are the major laws in %{name}?
+        architecture: What kind of architecture is popular in %{name}?
+        pop_culture: What is the pop culture scene like in %{name}?
+        music: What kinds of music are popular in %{name}?
+        sports: What sports are popular in %{name}?
+
+        area: How big is %{name}?
+        crops: What crops does %{name} import or export?
+        climate: What is the climate like in %{name}?
+
+        founding_story: How was %{name} founded?
+        established_year: When was %{name} founded?
+        notable_wars: What notable wars has %{name} participated in?
+
+      technology:
+        name: What's the name of this technology?
+        description: How would you describe %{name}?
+        other_names: What other names is %{name} known by?
+
+        materials: What materials is %{name} made with?
+        manufacturing_process: How is %{name} produced and manufactured?
+        sales_process: How is %{name} sold?
+        cost: How much does %{name} cost?
+
+        rarity: How rare (or common) is %{name}?
+
+        purpose: What is %{name} used for?
+        how_it_works: How does %{name} work?
+        resources_used: What resources does %{name} use?
+
+        physical_description: What does %{name} look like?
+        size: How big is %{name} on average?
+        weight: How much does %{name} weigh on average?
+        colors: What colors are %{name} usually?
+
+      planet:
+        name: What's the name of %{name}?
+        description: How would you describe %{name}?
+
+        size: How big is %{name}?
+        surface: What is the surface of %{name} like?
+        climate: What's the climate on %{name} like?
+        weather: What's the weather like on %{name}?
+        water_content: What's the water content like on %{name}?
+        natural_resources: What natural resources are there on %{name}?
+
+        length_of_day: How long is daytime on %{name}?
+        length_of_night: How long is night time on %{name}?
+        calendar_system: What's the calendar system like on %{name}?
+        night_sky: What does the sky look like at night on %{name}?
+        day_sky: What does the sky look like during the day on %{name}?
+
+        seasons: What seasons are there on %{name}?
+        temperature: How hot does %{name} get? How cold? What's the average temperature?
+        atmosphere: What does the atmosphere consist of on %{name}?
+        natural_disasters: What natural disasters are common on %{name}?
+
+        population: What's the population like on %{name}?
+
+        suns: Does %{name} have any suns?
+        moons: Does %{name} have any moons? If so, what are they?
+        orbit: What does %{name}'s astral orbit look like?
+        visible_constellations: What constellations are visible from %{name}?
+
+        first_inhabitants_story: How did the first inhabitants arrive on this planet?
+        world_history: What is the world history of %{name}?
+
+      government:
+        name: What's the name of %{name}?
+        description: How would you describe %{name}?
+
+        type_of_government: What type of government is %{name}?
+        power_structure: How is %{name}'s power structured? How is it organized? Who has what powers?
+        power_source: Where does %{name}'s source of power come from?
+        checks_and_balances: What checks and balances does %{name} have in place?
+        jobs: What jobs does %{name} provide? What jobs are necessary to run it?
+
+        sociopolitical: What sociopolitical ideologies does %{name} hold?
+        socioeconomical: What socioeconomical ideologies does %{name} hold?
+        geocultural: What geocultural ideologies does %{name} hold?
+        laws: What are the laws of %{name}?
+        immigration: What immigration policies and ideologies does %{name} hold?
+        privacy_ideologies: What does %{name} think about privacy?
+
+        electoral_process: What is the electoral process of %{name}?
+        term_lengths: What are the term lengths for people in %{name}?
+        criminal_system: What is %{name}'s criminal system like?
+
+        approval_ratings: What do the people think of %{name}? What are their approval ratings?
+        international_relations: What do international governments think about %{name}? How are their relations?
+        civilian_life: What is civilian life like for the people ruled by %{name}?
+
+        military: What does %{name}'s military look like?
+        navy: What does %{name}'s navy look like?
+        airforce: What does %{name}'s airforce look like?
+        space_program: Does %{name} have a space program? What is it like?
+
+        founding_story: How was %{name} created? What is its founding story?
+        flag_design_story: How was %{name}'s flag designed?
+        notable_wars: What notable wars throughout history has %{name} been involved in?
+        holidays: What holidays are relevant to %{name}'s history? What holidays does it recognize?
+
+        vehicles: What vehicles does %{name} use or own?
+
+      deity:
+        name: What is %{name}'s name?
+        description: How would you describe %{name}?
+        other_names: What other names is %{name} known by?
+
+        physical_description: How would you describe what %{name} looks like physically?
+        height: How tall is %{name}?
+        weight: How much does %{name} weigh?
+
+        symbols: What symbols are commonly associated with %{name}?
+        elements: What elements are commonly associated with %{name}?
+
+        strengths: What are %{name}'s strengths?
+        weaknesses: What are %{name}'s weaknesses?
+        conditions: What conditions does %{name} have?
+
+        prayers: What prayers are commonly associated with %{name}? How do followers pray?
+        rituals: What rituals are commonly associated with %{name}? How do they work?
+        traditions: What traditions are commonly associated with %{name}?
+        human_interaction: How often does %{name} interact with their followers? In what ways?
+
+        notable_events: What notable events throughout history has %{name} been a part of?
+        family_history: What is %{name}'s family history?
+        life_story: What is %{name}'s life story?
+      
+      building:
+        name: What is %{name}'s name?
+        description: How would you describe %{name}?
+        type_of_building: What kind of building is %{name}?
+        alternate_names: What other names is %{name} known by?
+
+        owner: Who owns %{name}?
+        tenants: Who lives or works in %{name}?
+        affiliation: What groups or organizations is %{name} affiliated with?
+        capacity: How many people can %{name} hold?
+        price: How much does it cost to enter or upkeep %{name}?
+        animals: What animals live in %{name}?
+
+        architectural_style: What style of architecture is %{name}?
+        facade: What does the outside of %{name} look like?
+        roof: What kind of roof does %{name} have?
+        dimensions: How big is %{name}?
+        square_feet: How many square feet is %{name}?
+        floor_count: How many floors are there in %{name}?
+        flooring: What kind of flooring does %{name} have?
+        walls: What kind of walls does %{name} have? What color? What material?
+        windows: How many windows does %{name} have? What kind of windows? In which rooms?
+
+        purpose: Why does %{name} exist? What is it for?
+        permits: What permits does %{name} have?
+        bedrooms: How many bedrooms does %{name} have?
+        bathrooms: How many bathrooms does %{name} have?
+        zone: What is %{name} zoned as?
+
+        address: What is %{name}'s address?
+
+        neighborhood_name: What is the name of the neighborhood %{name} is in?
+        crime_rate: What's the crime rate near %{name}?
+        view: What is the view like from %{name}?
+        stereotype: What is the stereotype of people who live or work near %{name}?
+
+        value: How much is %{name} worth?
+        last_sale_price: How much did %{name}'s previous owner sell it for?
+        monthly_payments: What kind of monthly payments (mortgage, rent, upkeep, etc) do the owners of %{name} have to pay?
+
+        parking: What parking is available to %{name}?
+        cooling: What kind of air cooling system does %{name} have?
+        heating: What kind of air heating system does %{name} have?
+        security: What kind of security system does %{name} have?
+        walkability: How walkable is %{name} to nearby points of interest?
+
+        constructed_year: When was %{name} built?
+        construction_cost: How much did it cost to build %{name}?
+        construction_time: How long did it take to build %{name}?
+        last_remodel: When was %{name} last remodeled?
+        architect: Who designed %{name}?
+        developer: Who was the developer that built %{name}?
+        notable_events: What has happened in or around %{name}?
+      
+      job:
+        name: What is the name of %{name}?
+        description: How would you describe %{name}?
+        type_of_job: What kind of job is %{name}?
+        alternate_names: What other names is %{name} referred to as?
+
+        education: What kind of education is necessary to work for %{name}?
+        experience: What experience is necessary to work for %{name}?
+        training: What training is necessary to work for %{name}?
+        work_hours: How long are shifts at %{name}? When do people work?
+        vehicles: What vehicles does %{name} use?
+
+        occupational_hazards: What are the most common risks and hazards associated with the %{name} job?
+        long-term_risks: What are the long-term risks of the %{name} job?
+        reputation: What reputation does %{name} earn its workers? 
+
+        pay_rate: How much does %{name} pay?
+        time_off: How much time off do workers of %{name} get?
+        bonuses: What bonuses are possible when working %{name}?
+        perks: What are the perks of being a worker of %{name}?
+
+        promotions: How are promotions handled at %{name}?
+        specializations: How can someone working at %{name} specialize?
+        field: What field is %{name} in?
+        ranks: What's the hierarchy at %{name}? What ranks are available?
+        similar_jobs: What other jobs are similar to %{name}?
+
+        job_origin: How did %{name} originate?
+        initial_goal: What was the original goal of %{name}?
+        changes_over_time: How has the goal, roles, and responsibilities of %{name} changed over time?
+        notable_figures: What notable figures are related to %{name}?
+        traditions: What traditions are related to %{name}?
+      
+      lore:
+        name: What is %{name}'s name?
+        summary: In short, what happens in %{name}?
+        type: What type of lore is this?
+
+        full_text: What is the full text of %{name}?
+        dialect: What dialects are present in %{name}?
+        structure: What form or structure does the written form of %{name} take?
+        tone: What is the overall tone of %{name}?
+        genre: What is the genre of %{name}?
+
+        time_period: What time period(s) does %{name} take place in?
+        
+        subjects: What subjects does %{name} cover?
+
+        true_parts: What parts of %{name} are based on truth?
+        false_parts: What parts of %{name} aren't based on truth?
+        believability: What makes %{name} believable to those who hear it?
+        morals: What morals does %{name} touch on? What is the primary moral of %{name}?
+        symbolisms: What symbolism is there in %{name}?
+        hoaxes: What hoaxes have popped up from %{name}?
+
+        impact: What impact has %{name} had on culture over time?
+        influence: How has %{name} influenced modern times?
+        motivations: Why do people tell %{name}? Why was %{name} first written?
+        reception: How has %{name} been received by the public?
+        interpretations: What different interpretations have existed for %{name}?
+        media_adaptations: How has %{name} been adapted into popular media?
+        criticism: What criticism is there against %{name}?
+        created_phrases: What phrases or slang originated from %{name}?
+
+        source: Where and how did %{name} originate?
+        original_telling: What was the first telling of %{name} like?
+        date_recorded: When was the first recording of %{name}?
+        inspirations: What inspirations were there when coming up with %{name}?
+        original_author: Who were the original authors of %{name}?
+        
+        historical_context: What historical information is relevant to better understand %{name}?
+        background_information: What background information is relevant to better understand %{name}?
+        important_translations: Which translations of %{name} were the most important?
+        propagation_method: How is %{name} retold? How does the story of %{name} spread?
+
+        geographical_variations: What geographical areas have different tellings of %{name}?
+        evolution: How has the telling of %{name} changed over time?
+        translation_variations: Which translations of %{name} have significantly changed the meaning?
+
+      condition:
+        name: What is %{name}'s name?
+        description: Describe %{name}.
+        type_of_condition: What kind of condition is %{name}?
+        alternate_names: What other names is %{name} known by?
+
+        genetic_factors: What genetic factors affect how contractable or effective %{name} is?
+        environmental_factors: What environmental factors affect how contractable or effective %{name} is?
+        lifestyle_factors: What lifestyle factors affect how contractable or effective %{name} is?
+        transmission: How does %{name} spread?
+        epidemiology: How is %{name} controlled or quarantined? How does it first occur? 
+
+        visual_effects: How does %{name} manifest visually?
+        mental_effects: How does %{name} affect the mind?
+        symptoms: What are the symptoms of %{name}?
+        duration: How long does %{name} last?
+        prognosis: How deadly is %{name}? What is the most likely outcome for those who contract it?
+        variations: What other forms of %{name} are out there?
+
+        prevention: How do people keep from contracting %{name}?
+        diagnostic_method: How do doctors determine whether someone has %{name}?
+        treatment: What is the treatment for %{name}?
+        medication: What medicines help treat %{name}?
+        immunization: What immunizations are available for %{name}?
+
+        specialty: What specialty/field is most relevant to understanding %{name}?
+        rarity: How rare is %{name}?
+        symbolism: What does %{name} represent in your world?
+
+        origin: Where did %{name} originate?
+        evolution: How has %{name} changed over time?
+
+      school:
+        name: What is %{name} named?
+        description: How would you describe %{name}?
+        type_of_school: What kind of school is %{name}?
+        nicknames: What other names is %{name} known as?
+
+        motto: What is %{name}'s motto?
+        mascot: What is %{name}'s mascot?
+        colors: What are %{name}'s school colors?
+        crest: What does %{name}'s school crest look like?
+        uniforms: What uniforms are worn at %{name}?
+        houses: What houses or dormitories are available to students at %{name}?
+        purpose: What is the stated reason %{name} exists?
+        reputation: What is %{name}'s reputation?
+
+        subjects: What subjects are available to learn at %{name}?
+        class_offerings: What classes are offered at %{name}?
+        core_curriculum: What classes are mandatory for all students at %{name}?
+        school_specialties: What subjects is %{name} known for?
+        tuition: How much does it cost to attend %{name}?
+        other_costs: Besides tuition, what other costs are there to attend %{name}?
+        grading_system: How are students graded at %{name}?
+        schedule: What is the typical day schedule at %{name}?
+
+        headmaster: Who is the headmaster or principal at %{name}?
+        teachers: Who are the teachers at %{name}?
+        administrators: Who are the administrators at %{name}?
+        other_employees: Who else does %{name} employ?
+        funding_source: Where does %{name} receive its funds from?
+
+        acceptance_criteria: How hard is it for students to be accepted into %{name}? What do they need to do?
+        demographics: What kinds of students attend %{name}?
+        grade_levels: What grade levels does %{name} teach?
+        student_ages: What age are students at %{name}?
+        current_students: Who currently attends %{name}?
+        past_students: Who has attended %{name} in the past?
+        famous_students: Who are %{name}'s famous alumni?
+
+        sports: What sports are played at %{name}?
+        clubs: What clubs are available to students at %{name}?
+        activities: What recreational activities are common at %{name}?
+        traditions: What traditions does %{name} have?
+
+        date_founded: When was %{name} founded?
+        founding_story: What is %{name}'s founding story?
+        founded_by: Who started %{name}?
+
+      sport:
+        name: What is %{name} named?
+        description: How would you describe %{name}?
+        nicknames: What other names is %{name} known by?
+
+        play_area: Where is %{name} played? What surfaces or environments are needed?
+        equipment: What equipment do players need to play %{name}?
+        number_of_players: How many people can play %{name} in a game? How many on each team? How many teams?
+        scoring: How do players score points in %{name}?
+        penalties: How can players be penalized in %{name}?
+        how_to_win: How does a player or team win in %{name}?
+
+        rules: What are the rules to play %{name}?
+        game_time: How long does a game of %{name} take?
+        positions: What positions do players of %{name} play?
+        strategies: What are the most common strategies players of %{name} apply?
+        common_injuries: How are players of %{name} most commonly injured? What risks are there?
+        most_important_muscles: What muscles are most important to play %{name} well?
+
+        uniforms: What do the uniforms of %{name} look like?
+        merchandise: What merchandise is popular with %{name}'s teams?
+        popularity: How popular is %{name}?
+        players: Who plays %{name}?
+        countries: Which countries play %{name}?
+        teams: What teams play %{name}?
+        traditions: What traditions are common in %{name}?
+
+        origin_story: How and when did %{name} originate?
+        creators: Who originally created %{name}?
+        evolution: How has %{name} changed over time?
+        famous_games: What were the most famous games of %{name} in history?
+
+      vehicle:
+        name: What is the name of %{name}?
+        description: How would you describe %{name}?
+        type_of_vehicle: What kind of vehicle is %{name}?
+        alternate_names: What other names do people call %{name}?
+
+        size: About how big (or small) is %{name}?
+        materials: What is %{name} made of?
+        colors: What colors does %{name} come in?
+        dimensions: What are the dimensions of %{name}?
+        doors: How many doors does %{name} have?
+        windows: How many windows does %{name} have?
+        designer: Who designed %{name}?
+
+        speed: How fast does %{name} go? What is its top speed?
+        distance: How far can %{name} go?
+        fuel: What kind of fuel does %{name} use? How does it refill?
+        safety: How safe is it to operate %{name}?
+        features: What features are available in %{name}?
+
+        manufacturer: Who manufactures %{name}?
+        costs: How much does it cost to bulid %{name}?
+        weight: How much does %{name} weigh?
+        country: What countries manufacture %{name}?
+        variants: What alternate styles or makes do %{name} come in?
+
+        jobs: What jobs are there operating %{name}?
+        training: What kind of training is necessary to operate %{name}?
+        owner: Who owns %{name}?
+
+      tradition:
+        name: What is %{name} named?
+        description: How would you describe %{name}?
+        type_of_tradition: What kind of tradition is %{name}?
+        alternate_names: What other names is %{name} known by?
+
+        date(s): When does %{name} happen?
+        countries: What countries celebrate %{name}?
+        towns: What towns celebrate %{name}?
+        groups: What groups celebrate %{name}?
+
+        activities: What activities are common when celebrating %{name}?
+        gifts: What kinds of gifts are exchanged during %{name}?
+        games: What games are played during %{name}?
+        symbolism: What does %{name} symbolize in your world?
+        food: What food is common during %{name}?
+
+        etymology: Where did the name for %{name} originally come from?
+        origin: When did %{name} originate?
+        significance: How important is %{name}? Who is it most important to?
+        religions: Which religions are associated with %{name}?
+        notable_events: What notable events throughout history are related to %{name}?
+
+      continent:
+        local_name: What do the people of %{name} call it? 
+        name: What do the people of %{name} call it?
+        other_names: What other names is %{name} called?
+        description: What is %{name}'s description?
+
+        area: How large is %{name}?
+        shape: What is %{name} shaped like?
+        population: How many people live in %{name}?
+        topography: How would you describe the topography of %{name}?
+        mineralogy: What minerals or other kinds of rocks are there in %{name}?
+        bodies_of_water: What large bodies of water are there in %{name}?
+        regional_advantages: What regional advantages does %{name} have?
+        regional_disadvantages: What regional disadvantages does %{name} have?
+
+        demonym: What are the people that live in %{name} called?
+        politics: What are the politics like in %{name}?
+        reputation: What is %{name}'s reputation?
+        economy: What is the economy like in %{name}?
+        tourism: What is the tourism like in %{name}?
+        architecture: What is the architectural style in %{name}?
+
+        crops: What crops are usually grown in %{name}?
+
+        temperature: How hot does it get in %{name}? How cold?
+        seasons: What are the seasons like in %{name}?
+        humidity: How humid is it in %{name}?
+        precipitation: What kind of precipitation does %{name} experience? How often?
+        winds: What are the winds like in %{name}?
+        natural_disasters: What natural disasters are common in %{name}?
+
+        formation: How did %{name} originally form?
+        discovery: How was %{name} discovered?
+        wars: What wars have been fought in %{name}?
+        ruins: What ruins are there in %{name}?
