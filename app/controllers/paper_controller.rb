@@ -33,7 +33,7 @@ class PaperController < ApplicationController
     # Build a gigantic HTML model of all the page contents
     concatenated_pdf_html = ''
     page_quantity_mapping.each do |page_template, page_count|
-      page_html = ActionController::Base.new.render_to_string(template: "paper/templates/#{page_template.downcase}", layout: nil)
+      page_html = ApplicationController.new.render_to_string(template: "paper/templates/#{page_template.downcase}", layout: nil)
       page_count.times do |i|
         # Add a manual pagebreak
         concatenated_pdf_html += "<div class='alwaysbreak'></div>"
@@ -44,7 +44,7 @@ class PaperController < ApplicationController
     end
 
     # Wrap the page contents in the global pdf layout
-    formatted_pdf = ActionController::Base.new.render_to_string(template: "layouts/pdf", layout: nil)
+    formatted_pdf = ApplicationController.new.render_to_string(template: "layouts/pdf", layout: nil)
     formatted_pdf.gsub!('<!--PDF_CONTENT-->', concatenated_pdf_html)
 
     # Debugging:

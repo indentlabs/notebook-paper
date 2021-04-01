@@ -6,6 +6,8 @@ div.nobreak { page-break-inside: avoid; }
 /* Text styling */
 .center     { text-align: center; }
 .centered   { margin: 0 auto; }
+.left       { float: left; }
+.right      { float: right; }
 .text-right { text-align: right; }
 .uppercase  { text-transform: uppercase; }
 
